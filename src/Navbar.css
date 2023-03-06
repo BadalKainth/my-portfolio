@@ -1,0 +1,30 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgb(95, 15, 68);
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0 40px;
+  align-items: center;
+}
+
+.site-title {
+  font-size: 36px;
+  font-style: italic;
+  letter-spacing: 0.25rem;
+}
+
+nav li {
+  margin-right: 3rem;
+  font-size: 22px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
