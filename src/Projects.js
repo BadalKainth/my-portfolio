@@ -1,13 +1,13 @@
 import React from "react";
 
-const Skills = () => {
+const Projects = () => {
   return (
     <body>
       <main>
-        <h1>SKILLS</h1>
+        <h1>Projects</h1>
       </main>
     </body>
   );
 };
 
-export default Skills;
+export default Projects;

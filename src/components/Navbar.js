@@ -1,25 +1,26 @@
 import React from "react";
 import "./Navbar.css";
-import "./Skills.js";
+import "../Skills";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
       <nav className="nav">
         <ul>
-          <a href="/index.js" className="site-title">
+          <Link to="/" className="site-title">
             Portfolio
-          </a>
+          </Link>
         </ul>
         <ul>
           <li>
-            <a href="/Skills.js">Skills</a>
+            <Link to="/skills">Skills</Link>
           </li>
           <li>
-            <a href="/projects.js">Projects</a>
+            <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <a href="/contact.js">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>

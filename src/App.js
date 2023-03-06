@@ -1,31 +1,24 @@
 import React from "react";
-import image from "./data/images/Profile-pic.JPG";
+import Skills from "./Skills.js";
+import Home from "./Home";
+import Projects from "./Projects.js";
+import Contact from "./Contact.js";
+import Navbar from "./components/Navbar";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <body>
-      <main>
-        <section className="home-section">
-          <div>
-            <img src={image} alt="Profile-pic" />
-          </div>
-          <div className="information">
-            <h1>
-              Hey 🙋‍♂️, I'm <span>Bukuljeet Kainth.</span> ♂️
-              <br></br>A web Developer💻
-            </h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
-            </p>
-          </div>
-        </section>
-      </main>
-    </body>
+    <>
+      <Navbar />
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </div>
+    </>
   );
 }
 
