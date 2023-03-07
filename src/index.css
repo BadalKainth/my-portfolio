@@ -6,6 +6,27 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: rgb(99, 86, 94);
+  cursor: default;
+}
+
+@media screen and (min-width: 300px) {
+  main {
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .home-section {
+    display: grid;
+    grid-template-columns: subgrid;
+  }
+
+  .information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 code {
@@ -13,21 +34,18 @@ code {
     monospace;
 }
 
-main {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  min-height: 94.8vh;
-}
+@media screen and (min-width: 900px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-height: 94.8vh;
+  }
 
-.bg-image {
-  background-image: url(./data/images/background.jpg);
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-}
-.home-section {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  .home-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 img {
@@ -55,6 +73,7 @@ p {
   font-size: 2.3vh;
   color: white;
   width: 90%;
+  font-style: italic;
 }
 
 .CV-btn {
@@ -80,4 +99,5 @@ button {
   border: none;
   height: 8vh;
   width: 8vh;
+  cursor: pointer;
 }

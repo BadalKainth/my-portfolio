@@ -1,8 +1,8 @@
 import React from "react";
-import Skills from "./Skills.js";
-import Home from "./Home";
-import Projects from "./Projects.js";
-import Contact from "./Contact.js";
+import Skills from "./pages/Skills.js";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects.js";
+import Contact from "./pages/Contact.js";
 import Navbar from "./components/Navbar";
 import { Route, Routes } from "react-router-dom";
 

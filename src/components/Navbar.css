@@ -22,6 +22,7 @@ nav ul {
 nav li {
   margin-right: 3rem;
   font-size: 22px;
+  font-style: italic;
 }
 
 nav a {
