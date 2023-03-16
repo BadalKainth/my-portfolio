@@ -1,0 +1,93 @@
+.homeSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+img {
+  max-height: 300px;
+  width: max-content;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+h1 {
+  font-size: 2em;
+  color: white;
+}
+
+p {
+  font-size: 1rem;
+  font-family: sans-serif;
+  color: white;
+  width: 90%;
+  line-height: 2rem;
+}
+
+span {
+  color: rgb(95, 15, 68);
+}
+
+.downloadbtn {
+  cursor: pointer;
+  font-size: 1rem;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50px;
+  width: 10rem;
+  background: rgb(95, 15, 68);
+  border: none;
+}
+
+@media screen and (min-width: 1300px) {
+  .homeSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4rem;
+  }
+
+  img {
+    max-height: 45rem;
+    width: max-content;
+  }
+
+  .information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 55%;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    color: white;
+  }
+
+  p {
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    color: white;
+    width: 90%;
+    line-height: 2.25rem;
+  }
+
+  .downloadbtn {
+    cursor: pointer;
+    font-size: 1.3rem;
+    background: transparent;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid rgb(95, 15, 68);
+  }
+
+  .downloadbtn:hover {
+    background: rgb(95, 15, 68);
+    color: white;
+  }
+}

@@ -1,0 +1,61 @@
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactCard {
+  display: flex;
+  line-height: 2rem;
+  gap: 1.5rem;
+}
+
+.contactInfoLeft {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+}
+
+.contactInfoRight {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+}
+span {
+  color: white;
+}
+
+@media screen and (min-width: 1300px) {
+  .contactSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 3rem;
+    width: 50%;
+  }
+
+  .contactInfoLeft {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7rem;
+  }
+
+  .contactInfoRight {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7rem;
+  }
+  span {
+    color: white;
+  }
+}

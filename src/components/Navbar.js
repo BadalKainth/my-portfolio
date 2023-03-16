@@ -1,27 +1,38 @@
 import React from "react";
-import "./Navbar.css";
+import classes from "./Navbar.module.css";
 import "../pages/Skills";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+  const links = [
+    {
+      name: "Home",
+      to: "/",
+    },
+    {
+      name: "Skills",
+      to: "/skills",
+    },
+    {
+      name: "Projects",
+      to: "/projects",
+    },
+    {
+      name: "Contact",
+      to: "/contact",
+    },
+  ];
+
   return (
     <>
-      <nav className="nav">
-        <ul>
-          <Link to="/" className="site-title">
-            Portfolio
-          </Link>
-        </ul>
-        <ul>
-          <li>
-            <Link to="/skills">Skills</Link>
-          </li>
-          <li>
-            <Link to="/projects">Projects</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
+      <nav className={classes.header}>
+        <h1 className={classes.title}>Portfolio</h1>
+        <ul className={classes.navBar}>
+          {links.map((link) => (
+            <li className={classes.navItem}>
+              <Link to={link.to}>{link.name}</Link>
+            </li>
+          ))}
         </ul>
       </nav>
     </>
