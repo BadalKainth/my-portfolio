@@ -4,10 +4,33 @@
   align-items: center;
 }
 
+.mainCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.header {
+  font-size: 2.5rem;
+  margin: 2rem 0;
+}
+
 .contactCard {
   display: flex;
   line-height: 2rem;
-  gap: 1.5rem;
+  gap: 1rem;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3rem;
+}
+
+.iconList {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
 }
 
 .contactInfoLeft {
@@ -23,7 +46,30 @@
   flex-direction: column;
   font-size: 1rem;
 }
-span {
+
+.contactBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.contactIcons {
+  display: flex;
+  font-size: 0.9rem;
+}
+
+.contactIcons a {
+  color: white;
+  text-decoration: none;
+}
+
+.contactIcons a:hover {
+  color: rgb(95, 15, 68);
+  padding-top: 2px;
+}
+
+.spanMe {
   color: white;
 }
 
@@ -34,12 +80,36 @@ span {
     align-items: center;
   }
 
+  .mainCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .header {
+    font-size: 4rem;
+    color: white;
+    margin: 2rem 0;
+  }
+
   .contactCard {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     line-height: 3rem;
-    width: 50%;
+    gap: 12rem;
+  }
+
+  .leftSide {
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+  }
+
+  .iconList {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
   }
 
   .contactInfoLeft {
@@ -55,6 +125,24 @@ span {
     flex-direction: column;
     font-size: 1.7rem;
   }
+
+  .contactBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .contactIcons {
+    display: flex;
+    font-size: 1.5rem;
+  }
+
+  .contactIcons a {
+    color: white;
+    text-decoration: none;
+  }
+
   span {
     color: white;
   }

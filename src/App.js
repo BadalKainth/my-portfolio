@@ -11,7 +11,11 @@ function App() {
     <>
       <Navbar />
       <div>
-        <Routes>
+        <Routes
+          style={{
+            margin: "100px",
+          }}
+        >
           <Route path="/" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
