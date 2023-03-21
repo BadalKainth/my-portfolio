@@ -18,8 +18,8 @@ const Home = () => {
               }}
             >
               Bukuljeet Kainth.
-            </span>
-            <br></br>A web Developer💻
+            </span>{" "}
+            A web Developer💻
           </h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting

@@ -88,7 +88,7 @@ const Skills = () => {
         <div className={classes.progressBar}>
           <p class="prog-title">React.js</p>
           <div className={classes.progressCons}>
-            <p className={classes.progText}>60%</p>
+            <p className={classes.progText}>70%</p>
             <div className={classes.progress}>
               <span className={classes.react}></span>
             </div>

@@ -1,6 +1,6 @@
 .homeSection {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   margin-top: 2rem;
 }
@@ -8,6 +8,7 @@
 img {
   max-height: 350px;
   width: max-content;
+  margin-bottom: 2rem;
 }
 
 .information {
@@ -18,9 +19,12 @@ img {
 }
 
 .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 2.2rem;
   color: white;
-  margin: 2rem 0;
+  margin-bottom: 2rem;
 }
 
 p {
@@ -67,9 +71,11 @@ span {
   }
 
   .header {
+    display: block;
     font-size: 4rem;
     color: white;
     margin-bottom: 2rem;
+    width: 90%;
   }
 
   p {
