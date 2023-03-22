@@ -184,6 +184,9 @@ p {
   width: 70%;
 }
 
+a {
+  color: rgb(95, 15, 68);
+}
 @media screen and (min-width: 1300px) {
   .skillsSection {
     display: flex;

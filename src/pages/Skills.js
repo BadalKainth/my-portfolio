@@ -11,19 +11,24 @@ const Skills = () => {
         <div className={classes.infoAbout}>
           <h3>INFORMATION ABOUT ME</h3>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            I am 22 years old passionate boy, who loves to code and put his
+            ideas to working content, i am easy to fit in for any kind of
+            surrounding since, i have good communication skills.
           </p>
           <br />
+
           <p>
-            It has survived not only five centuries, but also the leap into
-            electronic typesetting, remaining essentially unchanged. It was
-            popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum.
+            I have been learning by myself since 2021 from Youtube and Udemy and
+            I am skilled in developing responsive, mobile-friendly websites that
+            perform well across all devices.
+          </p>
+
+          <br />
+          <p>
+            My hobbies are listening Music ( It also helps to stay active and
+            reduce stress ), Editing & to make YouTube Content ( Channel:{" "}
+            <a href="https://www.youtube.com/c/LivewithCloud">SHINIGAMI TV</a>{" "}
+            ), Playing Games & to go on Road Trips.
           </p>
           <button className={classes.downloadbtn}>
             <span>Download CV</span>

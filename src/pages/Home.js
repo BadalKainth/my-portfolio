@@ -22,15 +22,20 @@ const Home = () => {
             A web Developer💻
           </h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.<br></br> It has
-            survived not only five centuries, but also the leap into electronic
-            typesetting, remaining essentially unchanged. It was popularised in
-            the 1960s with the release of Letraset sheets containing Lorem Ipsum
-            passages, and more recently with desktop publishing software like
-            Aldus PageMaker including versions of Lorem Ipsum.
+            As a web developer, I am passionate about creating dynamic and
+            visually stunning websites that provide seamless user experiences.
+            With a strong background in web development technologies, including
+            HTML, CSS, JavaScript, and various frameworks and libraries, I am
+            skilled in developing responsive, mobile-friendly websites that
+            perform well across all devices.
+          </p>
+          <br />
+          <p>
+            Whether working collaboratively with other developers or managing
+            projects independently, I am committed to delivering projects on
+            time, while maintaining the highest standards of quality. I am
+            always looking for new challenges and opportunities to further
+            develop my skills and enhance my portfolio.
           </p>
           <button className={classes.downloadbtn}>
             <span>Download CV</span>
