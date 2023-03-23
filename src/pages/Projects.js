@@ -35,8 +35,12 @@ const Projects = () => {
             <h1 className={classes.projectHeader}>BIRTHDAY REMINDER</h1>
             <p>Tech - HTML5-CSS3, JavaScript, React.js</p>
             <div className={classes.btns}>
-              <button className={classes.btn}>G</button>
-              <button className={classes.btn}>P</button>
+              <button className={classes.btn}>
+                <a href="https://github.com/BadalKainth/birthday-reminder">G</a>
+              </button>
+              <button className={classes.btn}>
+                <a href="https://birthday-reminder-flax.vercel.app">P</a>
+              </button>
             </div>
           </div>
         </div>
