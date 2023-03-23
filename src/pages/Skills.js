@@ -31,7 +31,9 @@ const Skills = () => {
             ), Playing Games & to go on Road Trips.
           </p>
           <button className={classes.downloadbtn}>
-            <span>Download CV</span>
+            <a href="https://drive.google.com/file/d/14CuM8aVdREUg54ILjqpL7diCmFJgGeBb/view?usp=sharing">
+              <span>Download CV</span>
+            </a>
           </button>
         </div>
         <div className={classes.qualityCards}>

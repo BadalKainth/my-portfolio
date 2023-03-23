@@ -38,7 +38,9 @@ const Home = () => {
             develop my skills and enhance my portfolio.
           </p>
           <button className={classes.downloadbtn}>
-            <span>Download CV</span>
+            <a href="https://drive.google.com/file/d/14CuM8aVdREUg54ILjqpL7diCmFJgGeBb/view?usp=sharing">
+              <span>Download CV</span>
+            </a>
           </button>
         </div>
       </section>
