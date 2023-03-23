@@ -38,7 +38,11 @@ const Home = () => {
             develop my skills and enhance my portfolio.
           </p>
           <button className={classes.downloadbtn}>
-            <a href="https://drive.google.com/file/d/14CuM8aVdREUg54ILjqpL7diCmFJgGeBb/view?usp=sharing">
+            <a
+              href="https://drive.google.com/file/d/14CuM8aVdREUg54ILjqpL7diCmFJgGeBb/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span>Download CV</span>
             </a>
           </button>

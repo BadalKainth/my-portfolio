@@ -27,11 +27,21 @@ const Skills = () => {
           <p>
             My hobbies are listening Music ( It also helps to stay active and
             reduce stress ), Editing & to make YouTube Content ( Channel:{" "}
-            <a href="https://www.youtube.com/c/LivewithCloud">SHINIGAMI TV</a>{" "}
+            <a
+              href="https://www.youtube.com/c/LivewithCloud"
+              target="_blank"
+              rel="noreferrer"
+            >
+              SHINIGAMI TV
+            </a>{" "}
             ), Playing Games & to go on Road Trips.
           </p>
           <button className={classes.downloadbtn}>
-            <a href="https://drive.google.com/file/d/14CuM8aVdREUg54ILjqpL7diCmFJgGeBb/view?usp=sharing">
+            <a
+              href="https://drive.google.com/file/d/14CuM8aVdREUg54ILjqpL7diCmFJgGeBb/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span>Download CV</span>
             </a>
           </button>

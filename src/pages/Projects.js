@@ -36,10 +36,22 @@ const Projects = () => {
             <p>Tech - HTML5-CSS3, JavaScript, React.js</p>
             <div className={classes.btns}>
               <button className={classes.btn}>
-                <a href="https://github.com/BadalKainth/birthday-reminder">G</a>
+                <a
+                  href="https://github.com/BadalKainth/birthday-reminder"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  G
+                </a>
               </button>
               <button className={classes.btn}>
-                <a href="https://birthday-reminder-flax.vercel.app">P</a>
+                <a
+                  href="https://birthday-reminder-flax.vercel.app"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  P
+                </a>
               </button>
             </div>
           </div>
