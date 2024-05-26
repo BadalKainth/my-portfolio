@@ -11,7 +11,7 @@ const Skills = () => {
         <div className={classes.infoAbout}>
           <h3>INFORMATION ABOUT ME</h3>
           <p>
-            I am 22 years old passionate boy, who loves to code and put his
+            I am 23 years old passionate boy, who loves to code and put his
             ideas to working content, i am easy to fit in for any kind of
             surrounding since, i have good communication skills.
           </p>

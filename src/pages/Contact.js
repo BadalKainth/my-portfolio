@@ -109,6 +109,9 @@ const Contact = () => {
               ))}
             </ul>
           </div>
+          <a className={classes.enquiryForm} href="/contactform">
+            <button className={classes.enquiryFormBtn}> Get in Touch!</button>
+          </a>
         </div>
       </section>
     </>

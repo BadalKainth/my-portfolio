@@ -148,3 +148,24 @@
     color: white;
   }
 }
+
+.enquiryForm {
+  display: flex;
+  justify-content: center;
+}
+
+.enquiryFormBtn {
+  margin-top: 2rem;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgb(95, 15, 68);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
