@@ -1,7 +1,6 @@
 import React from "react";
 import classes from "./Contact.module.css";
 import { Link } from "react-router-dom";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLocationDot,
@@ -10,6 +9,11 @@ import {
   faUserGraduate,
   faComments,
 } from "@fortawesome/free-solid-svg-icons";
+
+import GithubIcon from "../icons/MdiGithub";
+import TwitterIcon from "../icons/TwitterIcon";
+import LinkedinIcon from "../icons/LogosLinkedinIcon";
+import YoutubeIcon from "../icons/LogosYoutubeIcon";
 
 const Contact = () => {
   const infos = [
@@ -41,18 +45,22 @@ const Contact = () => {
   ];
   const links = [
     {
+      icon: <LinkedinIcon />,
       name: "LinkdIn",
       to: "https://www.linkedin.com/in/bukuljeet-kainth",
     },
     {
+      icon: <GithubIcon />,
       name: "GitHub",
       to: "https://github.com/BadalKainth",
     },
     {
+      icon: <YoutubeIcon />,
       name: "Youtube",
       to: "https://www.youtube.com/c/LivewithCloud",
     },
     {
+      icon: <TwitterIcon />,
       name: "Twitter",
       to: "/twitter",
     },
@@ -96,7 +104,7 @@ const Contact = () => {
             <ul className={classes.contactBar}>
               {links.map((link) => (
                 <li className={classes.contactIcons}>
-                  <Link to={link.to}>{link.name}</Link>
+                  <Link to={link.to}>{link.icon}</Link>
                 </li>
               ))}
             </ul>
