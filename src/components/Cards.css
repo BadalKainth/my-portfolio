@@ -1,0 +1,66 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 12px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.tag-teal {
+  background-color: #1abc9c;
+}
+
+.tag-purple {
+  background-color: #9b59b6;
+}
+
+.tag-pink {
+  background-color: #e91e63;
+}
+
+h4 {
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+  color: #555;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.user-info h5 {
+  margin: 0;
+}
+
+.user-info small {
+  color: #999;
+}

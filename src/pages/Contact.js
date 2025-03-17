@@ -1,4 +1,4 @@
-import React from "react";
+/* eslint-disable react/jsx-key */
 import classes from "./Contact.module.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,7 +13,6 @@ import {
 import GithubIcon from "../icons/MdiGithub";
 import TwitterIcon from "../icons/TwitterIcon";
 import LinkedinIcon from "../icons/LogosLinkedinIcon";
-import YoutubeIcon from "../icons/LogosYoutubeIcon";
 
 const Contact = () => {
   const infos = [
@@ -53,11 +52,6 @@ const Contact = () => {
       icon: <GithubIcon />,
       name: "GitHub",
       to: "https://github.com/BadalKainth",
-    },
-    {
-      icon: <YoutubeIcon />,
-      name: "Youtube",
-      to: "https://www.youtube.com/c/LivewithCloud",
     },
     {
       icon: <TwitterIcon />,

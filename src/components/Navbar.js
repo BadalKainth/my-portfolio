@@ -1,4 +1,3 @@
-import React from "react";
 import classes from "./Navbar.module.css";
 import { Link } from "react-router-dom";
 
@@ -28,6 +27,7 @@ const Navbar = () => {
         <h1 className={classes.title}>Portfolio</h1>
         <ul className={classes.navBar}>
           {links.map((link) => (
+            // eslint-disable-next-line react/jsx-key
             <li className={classes.navItem}>
               <Link to={link.to}>{link.name}</Link>
             </li>

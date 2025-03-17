@@ -181,8 +181,19 @@ p {
   height: 100%;
   background-color: rgb(95, 15, 68);
   transition: all 0.4s ease-in-out;
-  width: 70%;
+  width: 85%;
 }
+
+.node {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: rgb(95, 15, 68);
+  transition: all 0.4s ease-in-out;
+  width: 80%;
+}
+
 
 a {
   color: rgb(95, 15, 68);
@@ -373,6 +384,16 @@ a {
     height: 100%;
     background-color: rgb(95, 15, 68);
     transition: all 0.4s ease-in-out;
-    width: 70%;
+    width: 85%;
+  }
+
+  .node {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgb(95, 15, 68);
+    transition: all 0.4s ease-in-out;
+    width: 80%;
   }
 }

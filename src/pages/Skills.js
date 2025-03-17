@@ -1,4 +1,3 @@
-import React from "react";
 import classes from "./Skills.module.css";
 
 const Skills = () => {
@@ -26,19 +25,11 @@ const Skills = () => {
           <br />
           <p>
             My hobbies are listening Music ( It also helps to stay active and
-            reduce stress ), Editing & to make YouTube Content ( Channel:{" "}
-            <a
-              href="https://www.youtube.com/c/LivewithCloud"
-              target="_blank"
-              rel="noreferrer"
-            >
-              SHINIGAMI TV
-            </a>{" "}
-            ), Playing Games & to go on Road Trips.
+            reduce stress ), Editing & to make YouTube Content Playing Games & to go on Road Trips.
           </p>
           <button className={classes.downloadbtn}>
             <a
-              href="https://drive.google.com/file/d/14CuM8aVdREUg54ILjqpL7diCmFJgGeBb/view?usp=sharing"
+              href="https://drive.google.com/file/d/1q1FfrPhTjwQMKSYHdcRpfU_7HlsimLnW/view?usp=drive_link"
               target="_blank"
               rel="noreferrer"
             >
@@ -76,7 +67,7 @@ const Skills = () => {
       <h1 className={classes.headerSkills}>SKILLS</h1>
       <div className={classes.progressBars}>
         <div className={classes.progressBar}>
-          <p class="prog-title">HTML5</p>
+          <p className="prog-title">HTML5</p>
           <div className={classes.progressCons}>
             <p className={classes.progText}>90%</p>
             <div className={classes.progress}>
@@ -85,7 +76,7 @@ const Skills = () => {
           </div>
         </div>
         <div className={classes.progressBar}>
-          <p class="prog-title">CSS3</p>
+          <p className="prog-title">CSS3</p>
           <div className={classes.progressCons}>
             <p className={classes.progText}>80%</p>
             <div className={classes.progress}>
@@ -94,7 +85,7 @@ const Skills = () => {
           </div>
         </div>
         <div className={classes.progressBar}>
-          <p class="prog-title">JavaScript</p>
+          <p className="prog-title">JavaScript</p>
           <div className={classes.progressCons}>
             <p className={classes.progText}>75%</p>
             <div className={classes.progress}>
@@ -103,11 +94,20 @@ const Skills = () => {
           </div>
         </div>
         <div className={classes.progressBar}>
-          <p class="prog-title">React.js</p>
+          <p className="prog-title">React.js</p>
           <div className={classes.progressCons}>
-            <p className={classes.progText}>70%</p>
+            <p className={classes.progText}>85%</p>
             <div className={classes.progress}>
               <span className={classes.react}></span>
+            </div>
+          </div>
+        </div>
+        <div className={classes.progressBar}>
+          <p className="prog-title">Node.js</p>
+          <div className={classes.progressCons}>
+            <p className={classes.progText}>80%</p>
+            <div className={classes.progress}>
+              <span className={classes.node}></span>
             </div>
           </div>
         </div>

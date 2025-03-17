@@ -1,4 +1,3 @@
-import React from "react";
 import image from "../data/images/Profile-pic.png";
 import classes from "./Home.module.css";
 
@@ -11,7 +10,7 @@ const Home = () => {
         </div>
         <div className={classes.information}>
           <h1 className={classes.header}>
-            Hey 🙋🏻, I'm{" "}
+            Hey 🙋🏻, Im{" "}
             <span
               style={{
                 color: "rgb(95, 15, 68)",
@@ -39,7 +38,7 @@ const Home = () => {
           </p>
           <button className={classes.downloadbtn}>
             <a
-              href="https://drive.google.com/file/d/14CuM8aVdREUg54ILjqpL7diCmFJgGeBb/view?usp=sharing"
+              href="https://drive.google.com/file/d/1q1FfrPhTjwQMKSYHdcRpfU_7HlsimLnW/view?usp=drive_link"
               target="_blank"
               rel="noreferrer"
             >

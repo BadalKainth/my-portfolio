@@ -1,4 +1,3 @@
-import React from "react";
 import Skills from "./pages/Skills.js";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects.js";
