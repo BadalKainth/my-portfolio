@@ -18,7 +18,8 @@ const Home = () => {
             >
               Bukuljeet Kainth.
             </span>{" "}
-            A web Developer💻
+        
+            A MERN Stack Developer💻
           </h1>
           <p>
             As a web developer, I am passionate about creating dynamic and
